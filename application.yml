@@ -93,3 +93,8 @@ spring:
              - name: key-vault-property-source-1
                endpoint: https://kv-sa-petclinic-ad4e1e.vault.azure.net/
                credential.managed-identity-enabled: true
+  jms:
+    servicebus:
+      connection-string: Endpoint=sb://sq-petclinic-ad4e1e.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=vYmZCz11eoCUM4FhOGqQEMH+1d2PfFIZq+ASbM5Vbt4=
+        idle-timeout: 60000
+        pricing-tier: premium
