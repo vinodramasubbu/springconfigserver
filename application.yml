@@ -84,7 +84,6 @@ spring:
     url: jdbc:mysql://petclinicdbsrvad4e1e.mysql.database.azure.com:3306/petclinic?useSSL=true
     #password: Mysqlpass55
     initialization-mode: ALWAYS
-spring:
   cloud:
      azure:
        keyvault:
